@@ -35,18 +35,19 @@ console.log("===============================================\n")
 
 const bank1 = new BankAccount()
 bank1.setData(513515,50000) // Rp. 50000
-console.log("TOTAL SALDO SAAT INI : Rp. "+bank.cekSaldo())
+console.log("TOTAL SALDO SAAT INI : Rp. "+bank1.cekSaldo())
 
 const depo1 = bank1.deposit(200000) // + Rp. 200.000 = Rp. 250.000
 console.log("TOTAL SALDO SETELAH DEPOSIT : Rp. "+depo1)
 
 const tarik1 = bank1.tarik(10000) // Rp. 10.000 = Rp. 240.000
 console.log("TOTAL SALDO : Rp. "+bank1.cekSaldo())
+
 console.log("=============================================== \n")
 
 const bank2 = new BankAccount()
 bank2.setData(45241424,10000)
-console.log("TOTAL SALDO SAAT INI : Rp. "+bank.cekSaldo())
+console.log("TOTAL SALDO SAAT INI : Rp. "+bank2.cekSaldo())
 
 const depo2 = bank2.deposit(40000)
 console.log("TOTAL SALDO SETELAH DEPOSIT : Rp. "+depo2)
