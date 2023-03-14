@@ -45,7 +45,7 @@ console.log("TOTAL SALDO : Rp. "+bank1.cekSaldo())
 console.log("=============================================== \n")
 
 const bank2 = new BankAccount()
-bank2.setData(12345678,10000)
+bank2.setData(45241424,10000)
 console.log("TOTAL SALDO SAAT INI : Rp. "+bank.cekSaldo())
 
 const depo2 = bank2.deposit(40000)
